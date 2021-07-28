@@ -12,4 +12,37 @@
   .container-fluid .navbar-collapse {
     justify-content: flex-end; }
 
+#main .carousel-inner img {
+  padding: 0%;
+  margin: 0%;
+  bottom: 0%;
+  justify-items: center;
+  max-width: 100%;
+  max-height: 80vh;
+  justify-items: center;
+  object-fit: cover; }
+
+.overlay {
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  background-color: rgba(0, 0, 0, 0.5);
+  color: white; }
+
+footer {
+  top: 10px;
+  bottom: 10px;
+  background-color: orange; }
+
+#video__presentacion .container {
+  border: solid 10px #DAF7A6; }
+
+.integrantes {
+  font-size: 70%; }
+  .integrantes .btn img {
+    width: 30px;
+    border: solid red 0.2px; }
+
 /*# sourceMappingURL=output.css.map */
