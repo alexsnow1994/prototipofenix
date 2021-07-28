@@ -1,0 +1,7 @@
+{
+"version": 3,
+"mappings": "AAGA,CAAE;EACE,UAAU,EAAE,UAAU;EACtB,MAAM,EAAE,EAAE;EACV,OAAO,EAAE,EAAE;;ACNf,gBAAiB;EACb,gBAAgB,EDAF,OAAO;ECCrB,SAAS,EAAE,IAAI;EAGd,oBAAG;IACD,KAAK,EAAE,KAAK;IACX,MAAM,EAAE,IAAI;EAGhB,iCAAgB;IACZ,eAAe,EAAE,QAAQ",
+"sources": ["scss/modulos/_principal.scss","scss/modulos/_navegancion.scss"],
+"names": [],
+"file": "output.css"
+}
