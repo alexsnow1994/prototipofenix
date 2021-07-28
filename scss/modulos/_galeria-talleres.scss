@@ -1,0 +1,12 @@
+#galeria_de_talleres .container{
+    
+    border: solid 5px red ;
+    .col{
+        color: chocolate;
+        border: solid 2px black;
+    }
+    img{
+        border-radius: 3px solid green;
+        background-color: chartreuse;
+    }
+}
