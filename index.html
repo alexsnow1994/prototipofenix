@@ -6,49 +6,57 @@
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <link rel="stylesheet" href="/output.css">
     <!-- Bootstrap CSS -->
-    
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@1,300&display=swap" rel="stylesheet">  
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
 
     <title>MORUSAS</title>
   </head>
   <body>
     <!--encabezado-->
-        <header>
-            <nav class="navbar navbar-expand-lg navbar-light bg-light">
+        <header class="header">
+            <div class="container-fluid">
+              <div class="row">
+                <div class="col-12 ">
+                  <nav class="navbar navbar-expand-lg navbar-light 0">
               
-                <div id="navegacion" class="container-fluid">
-                  <a class="navbar-brand logo" href="#">
-                      <img class="img-fluid rounded float-start" src="/img/LogoAlternativo-MorusasDeCiencia.jpeg" alt="Logo-MorusasDeCiencia">
-                      
-                  </a>
-                  <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavDropdown" aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
-                    <span class="navbar-toggler-icon"></span>
-                  </button>
-                  <div class="collapse navbar-collapse" id="navbarNavDropdown">
-                    <ul class="navbar-nav">
-                      <li class="nav-item">
-                        <a class="nav-link active" aria-current="page" href="#">Home</a>
-                      </li>
-                      <li class="nav-item">
-                        <a class="nav-link" href="#">Features</a>
-                      </li>
-                      <li class="nav-item">
-                        <a class="nav-link" href="#">Pricing</a>
-                      </li>
-                      <li class="nav-item dropdown">
-                        <a class="nav-link dropdown-toggle" href="#" id="navbarDropdownMenuLink" role="button" data-bs-toggle="dropdown" aria-expanded="false">
-                          Dropdown link
-                        </a>
-                        <ul class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
-                          <li><a class="dropdown-item" href="#">Action</a></li>
-                          <li><a class="dropdown-item" href="#">Another action</a></li>
-                          <li><a class="dropdown-item" href="#">Something else here</a></li>
+                    <div id="navegacion" class="container-fluid">
+                      <a class="navbar-brand logo" href="#">
+                          <img class="img-fluid rounded float-start" src="/img/LogoAlternativo-MorusasDeCiencia.jpeg" alt="Logo-MorusasDeCiencia">
+                          
+                      </a>
+                      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavDropdown" aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
+                        <span class="navbar-toggler-icon"></span>
+                      </button>
+                      <div class="collapse navbar-collapse" id="navbarNavDropdown">
+                        <ul class="navbar-nav">
+                          <li class="nav-item">
+                            <a class="nav-link active" aria-current="page" href="#">Home</a>
+                          </li>
+                          <li class="nav-item">
+                            <a class="nav-link" href="/node/eventos.html">eventos</a>
+                          </li>
+                          <li class="nav-item">
+                            <a class="nav-link" href="#">Pricing</a>
+                          </li>
+                          <li class="nav-item dropdown">
+                            <a class="nav-link dropdown-toggle" href="#" id="navbarDropdownMenuLink" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                              Dropdown link
+                            </a>
+                            <ul class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
+                              <li><a class="dropdown-item" href="#">Action</a></li>
+                              <li><a class="dropdown-item" href="#">Another action</a></li>
+                              <li><a class="dropdown-item" href="#">Something else here</a></li>
+                            </ul>
+                          </li>
                         </ul>
-                      </li>
-                    </ul>
-                  </div>
+                      </div>
+                    </div>
+                  </nav>
                 </div>
-              </nav>
+              </div>
+            </div>
         </header>
     <!--/encabezado-->
     <!--main--> 
@@ -69,12 +77,8 @@
                 <div class="overlay">
                   <div class="container">
                     <div class="row text-rigth">
-                      <div class="col-3 offset-9">
-                        <a href="#" > <!-- start slipsum code -->
-                          
-                          Well, the way they make shows is, they make one show. That show's called a pilot. Then they show that show to the people who make shows, and on the strength of that one show they decide if they're going to make more shows. Some pilots get picked and become television programs. Some don't, become nothing. She starred in one of the ones that became nothing.
-                          
-                          <!-- end slipsum code --></a>
+                      <div class="col-2 offset-10 md">
+                        <p>Morusas de Ciencia es un proyecto de divulgación y difusión de la ciencia en el que se busca acercar los conocimientos de los laboratorios y espacios académicos a  los barrios. </p>
                         </div>
                       </div>
                     </div>
@@ -84,19 +88,20 @@
               </main>
           <!--/main-->
           <!--presentacion-->
-          <section id="galeria_de_talleres">
+          <section id="galeria_de_talleres" class="talleres t-5 b-5">
+            <h1 class="text-center">talleres</h1>
             <div class="container">
               <div class="row text-center">
                 <div class="col-12 col-lg-4 p-3 b-3 ">
-                  <img src="http://www.solverdca.com.ar/wp-content/uploads/2019/08/taller-2.jpeg" class="img-thumbnail" alt="http://www.solverdca.com.ar/wp-content/uploads/2019/08/taller-2.jpeg">
-                  <p>hola<!-- start slipsum code -->
+                  <img src="/img/Fotos/Fotos2/1_talleres.jpg" class="img-thumbnail" alt="">
+                  <p><!-- start slipsum code -->
 
 Your bones don't break, mine do. That's clear. Your cells react to bacteria and viruses differently than mine. You don't get sick, I do. That's also clear. But for some reason, you and I react the exact same way to water. We swallow it too fast, we choke. We get some in our lungs, we drown. However unreal it may seem, we are connected, you and I. We're on the same curve, just on opposite ends.
 
 <!-- end slipsum code --></p>
                 </div>
                 <div class="col-12 col-lg-4 p-3 b-3">
-                  <img src="http://www.solverdca.com.ar/wp-content/uploads/2019/08/taller-2.jpeg" class="img-thumbnail" alt="http://www.solverdca.com.ar/wp-content/uploads/2019/08/taller-2.jpeg">
+                  <img src="/img/Fotos/Fotos2/2_talleres.jpg" class="img-thumbnail" alt="">
                   <p>hola<!-- start slipsum code -->
 
 Your bones don't break, mine do. That's clear. Your cells react to bacteria and viruses differently than mine. You don't get sick, I do. That's also clear. But for some reason, you and I react the exact same way to water. We swallow it too fast, we choke. We get some in our lungs, we drown. However unreal it may seem, we are connected, you and I. We're on the same curve, just on opposite ends.
@@ -104,8 +109,8 @@ Your bones don't break, mine do. That's clear. Your cells react to bacteria and 
 <!-- end slipsum code --></p>
                 </div>
                 
-                <div class="col-12 col-lg-4 p-3 b-3">
-                  <img src="http://www.solverdca.com.ar/wp-content/uploads/2019/08/taller-2.jpeg" class="img-thumbnail" alt="http://www.solverdca.com.ar/wp-content/uploads/2019/08/taller-2.jpeg">
+                <div class="col-12 col-lg-4 p-3 b-3 t-3">
+                  <img src="/img/Fotos/Fotos2/3_talleres.jpg" class="img-thumbnail" alt="">
                   <p>hola<!-- start slipsum code -->
 
 Your bones don't break, mine do. That's clear. Your cells react to bacteria and viruses differently than mine. You don't get sick, I do. That's also clear. But for some reason, you and I react the exact same way to water. We swallow it too fast, we choke. We get some in our lungs, we drown. However unreal it may seem, we are connected, you and I. We're on the same curve, just on opposite ends.
@@ -124,7 +129,9 @@ Your bones don't break, mine do. That's clear. Your cells react to bacteria and 
                   <h1>aqui van los objetivos claros y concisos</h1>
                   <p><!-- start slipsum code -->
 
-                    Your bones don't break, mine do. That's clear. Your cells react to bacteria and viruses differently than mine. You don't get sick, I do. That's also clear. But for some reason, you and I react the exact same way to water. We swallow it too fast, we choke. We get some in our lungs, we drown. However unreal it may seem, we are connected, you and I. We're on the same curve, just on opposite ends.
+                    “Morusas de Ciencia es un propuesta  de divulgación de la  ciencia  para la  reconstrucciòn del tejido social y enfocado a la  cultura de paz, por medio de actividades  de activaciòn cultural desde el marco de la ciencia, nos hemos caracterizado por la cooperación y trabajo en común por un objetivo: construir una sociedad más justa, pacífica y sobre todo con igualdad de oportunidades a través de la aplicación del conocimiento científico, sin perder de vista nuestra naturaleza humana. “
+David “Manny” Morales
+Cofundador de Morusas de Ciencia 
                     
                     <!-- end slipsum code --></p>
                 </div>
@@ -135,12 +142,15 @@ Your bones don't break, mine do. That's clear. Your cells react to bacteria and 
           <section id="video__presentacion">
           <div class="container">
             <div class="row">
-              <div class="col">
-                  <video src=" https://youtu.be/T--BwvZe2Ek "></video>
+              <div class="col-12 md">
+                
+                  <iframe width="560" height="315" src="https://www.youtube.com/embed/TGpkrld6SeY" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+                  
+                
               </div>
             </div>
           </div>
-          </section>
+        </section>
           <section class="integrantes">
               <div class="container">
                 <div class="row">
@@ -164,8 +174,9 @@ Your bones don't break, mine do. That's clear. Your cells react to bacteria and 
                     <div class="card" style="width: 18rem;">
                       <img src="/img/integrantes/DONBERENJENA.jpg" class="card-img-top" alt="...">
                       <div class="card-body">
-                        <h5 class="card-title">Card title</h5>
-                        <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+                        <h5 class="card-title">Alejandro Estrada</h5>
+                        <h3>WEB-DEVELOPER</h3>
+                        <p class="card-text">Ing. mecanico electrico, aficionado del cine , literatura.</p>
                         <a href="#" class="btn btn-primary">Go somewhere</a>
                       </div>
                     </div>
@@ -184,79 +195,41 @@ Your bones don't break, mine do. That's clear. Your cells react to bacteria and 
               </div>
           </section>
           <!--/presentacion--> 
-              <p class="lh-sm">
-                 <!-- start slipsum code -->
-
-                    My money's in that office, right? If she start giving me some bullshit about it ain't there, and we got to go someplace else and get it, I'm gonna shoot you in the head then and there. Then I'm gonna shoot that bitch in the kneecaps, find out where my goddamn money is. She gonna tell me too. Hey, look at me when I'm talking to you, motherfucker. You listen: we go in there, and that nigga Winston or anybody else is in there, you the first motherfucker to get shot. You understand?
-
-                <!-- end slipsum code --> 
-              </p>
-              <div class="container">
-                <div class="row row-cols-2 row-cols-lg-5 g-2 g-lg-3">
-                  <div class="col">
-                    <div class="p-3 border bg-light">
-                      <img src="" alt="">
-                    </div>
-                  </div>
-                  <div class="col">
-                    <div class="p-3 border bg-light">
-                    <img src="" alt="">  
-                    </div>
-                  </div>
-                  <div class="col">
-                    <div class="p-3 border bg-light">
-                      <img src="" alt="">
-                    </div>
-                  </div>
-                  <div class="col">
-                    <div class="p-3 border bg-light">
-                      <img src="" alt="">
-                    </div>
-                  </div>
-                  <div class="col">
-                    <div class="p-3 border bg-light">
-                      <img src="" alt="">
-                    </div>
-                  </div>
-                  <div class="col">
-                    <div class="p-3 border bg-light">
-                      <img src="" alt="">
-                    </div>
-                  </div>
-                  <div class="col">
-                    <div class="p-3 border bg-light">
-                      <img src="" alt="">
-                    </div>
-                  </div>
-                  <div class="col">
-                    <div class="p-3 border bg-light">
-                      <img src="" alt="">
-                    </div>
-                  </div>
-                  <div class="col">
-                    <div class="p-3 border bg-light">
-                      <img src="" alt="">
-                    </div>
-                  </div>
-                  <div class="col">
-                    <div class="p-3 border bg-light">
-                      <img src="" alt="">
+              <!--mailing-->
+              <section>
+                <div class="container">
+                  <div class="row">
+                    <div class="col">
+                      <div class="mb-3">
+                        <label for="exampleFormControlInput1" class="form-label">Email address</label>
+                        <input type="email" class="form-control" id="exampleFormControlInput1" placeholder="name@example.com">
+                      </div>
+                      <div class="mb-3">
+                        <label for="exampleFormControlTextarea1" class="form-label">Example textarea</label>
+                        <textarea class="form-control" id="exampleFormControlTextarea1" rows="3"></textarea>
+                      </div>
                     </div>
                   </div>
                 </div>
-              </div>
+              </section>
+               <!--mailing-->
     <!--/main-->    
     <!--footer-->
         <footer class="footer">
-            <div class="container">
-                <div class="row text-center">
-                  <div class="col-12 col-lg-4">
+            <div class="container-fluid ">
+                <div class="row text-center text-aligin">
+                  <div class="col-12 col-lg-3 ">
+                    <a href="">
+                      <img class="img-fluid rounded float-center" src="/img/LogoAlternativo-MorusasDeCiencia.jpeg" alt="Logo-MorusasDeCiencia">
+                    </a>
+                  </div>
+                  <div class="col-12 col-lg-3   ">
                     CONTACTOS
                   </div>
-                  <div class="col-12 col-lg-4">
+                  <div class="col-12 col-lg-3 ">
                     ANTECEDENTES
                   </div>
-                  <div class="col-12 col-lg-4">
+                  <div class="col-12 col-lg-3 ">
                      REDES SOCOAILES 
                   </div>
                 </div>
