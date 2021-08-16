@@ -1,5 +1,7 @@
 $fuente_principal:  'Open Sans', sans-serif; ;
-$color_principal: #c4e8f2 ;
+
+$colorPrincipal:  #d7a2ff;
+
 
 * {
     box-sizing: border-box;
@@ -8,6 +10,8 @@ $color_principal: #c4e8f2 ;
       
     
 }
-.pr{
-    border: solid 4px black;
+
+
+main {
+    background-color: $colorPrincipal;
 }

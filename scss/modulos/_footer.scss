@@ -1,14 +1,16 @@
-.footer .container {
+.footer .pie {
     margin: 0%;
     padding: 0%;
     margin-top: 20px;
     color: blanchedalmond;
     top: 20px;
     bottom: 20px;
-    background-color: $color_principal;
+    background-color: $colorPrincipal;
     justify-items: center;
+    align-items: center;
+    
     img{
-        width: 80px;
+        width: 150px;
         top: 10px;
         bottom: 10px;
     }

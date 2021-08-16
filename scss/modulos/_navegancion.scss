@@ -1,22 +1,26 @@
 .header {
-
+    background-color: $colorPrincipal;
     margin: 0%;
     padding: 0%;
-}
-.container-fluid {
-    background-color: $color_principal;
-    font-size: 20px;
-    
-    
-     img{  
-       width: 100px;
-        height: 100%;
+    #navegacionñ{
+        background-color: #d7a2ff;
+    }
+    .container-fluid {
+        background-color:  #d7a2ff;
+        font-size: 20px;
         
-    }
+        
+         img{  
+           width: 300px;
+            height: 100%;
+            
+        }
+        
+        .navbar-collapse{
+            justify-content: flex-end;
+        }
     
-    .navbar-collapse{
-        justify-content: flex-end;
+    
     }
-
-
 }
+
