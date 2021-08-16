@@ -54,7 +54,7 @@ main {
 
 .overlay {
   font-family: "Open Sans", sans-serif;
-  font-size: 25px;
+  font-size: 20px;
   position: absolute;
   top: 0;
   bottom: 0;
@@ -73,18 +73,12 @@ main {
     .overlay .container .bg-primary {
       color: black;
       background-color: purple !important;
-      height: 50px;
-      justify-content: center;
-      align-items: center;
-      text-align: center; }
+      height: 50px; }
 
 .footer .pie {
   margin: 0%;
   padding: 0%;
-  margin-top: 20px;
   color: blanchedalmond;
-  top: 20px;
-  bottom: 20px;
   background-color: #d7a2ff;
   justify-items: center;
   align-items: center; }
@@ -105,13 +99,15 @@ main {
 section {
   background-color: #d7a2ff; }
   section .bg-primary {
-    background-color: purple !important; }
+    background-color: purple !important;
+    height: 40px;
+    color: black; }
 
 #galeria_de_talleres img {
   width: 405px;
   height: 305px; }
 
 #carouselExampleIndicators img {
-  object-fit: contain; }
+  object-fit: scale-down; }
 
 /*# sourceMappingURL=output.css.map */
