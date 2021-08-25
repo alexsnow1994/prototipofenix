@@ -86,6 +86,8 @@ main {
     width: 150px;
     top: 10px;
     bottom: 10px; }
+  .footer .pie .ws {
+    width: 40px; }
 
 #video__presentacion iframe {
   justify-content: center; }
