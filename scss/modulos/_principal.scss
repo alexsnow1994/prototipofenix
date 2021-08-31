@@ -1,8 +1,8 @@
 $fuente_principal:  'Open Sans', sans-serif; ;
 
 $colorPrincipal:  #d7a2ff;
-
-
+$colorNav:#E2CEE5;
+$colorCarrusel: #c59fcb;
 * {
     box-sizing: border-box;
     margin: 0%;
@@ -13,5 +13,5 @@ $colorPrincipal:  #d7a2ff;
 
 
 main {
-    background-color: $colorPrincipal;
+    background-color: $colorNav;
 }

@@ -22,10 +22,10 @@
     justify-items: center;
     align-items: center;
     
-  }
-.bg-primary {
+  }}
+ /* .bg-primary {
   color: black !important;
-  background-color: purple !important;
+   background-color: purple !important; 
   height: 50px;
   justify-content: center;
   align-items: center;
@@ -33,7 +33,11 @@
   align-items: center;
   font-size: 2.5rem;
 
-}}
+  #bt2 .bg-primary {
+    background-color: #8ae0db !important;
+  } 
+
+}} */
 
   .overlay{
     font-family: $fuente_principal;
@@ -55,15 +59,31 @@
         text-align: justify;
         color: $colorPrincipal ;
         bottom:  250px;
-        .bg-primary{
+        
+        
+        /* .bg-primary{
           color: black;
-          background-color: purple !important;
+          //background-color: $colorCarrusel !important;
           height: 50px;
           //justify-content: center;
           //align-items: center;
           //text-align: center;
-        }
+        } */
       }
   }
-
+  .overlay .bt1{
+    background-color: #A9E9A4 !important;
+    position: relative;
+    //right: 45px;
+  }
   
+  #path .bt2{
+    background-color: #8ae0db !important;
+  }
+
+  #path .bt3 {
+    background-color: #00afcf !important;
+  }
+  #path .bt4 {
+    background-color: #8ae0db !important;
+  }

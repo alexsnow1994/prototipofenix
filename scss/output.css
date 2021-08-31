@@ -5,16 +5,16 @@
   padding: 0%; }
 
 main {
-  background-color: #d7a2ff; }
+  background-color: #E2CEE5; }
 
 .header {
   background-color: #d7a2ff;
   margin: 0%;
   padding: 0%; }
   .header #navegacionñ {
-    background-color: #d7a2ff; }
+    background-color: #E2CEE5; }
   .header .container-fluid {
-    background-color: #d7a2ff;
+    background-color: #E2CEE5;
     font-size: 20px; }
     .header .container-fluid img {
       width: 300px;
@@ -42,16 +42,22 @@ main {
     justify-content: center;
     justify-items: center;
     align-items: center; }
-  .path .bg-primary {
-    color: black !important;
-    background-color: purple !important;
-    height: 50px;
-    justify-content: center;
-    align-items: center;
-    text-align: center;
-    align-items: center;
-    font-size: 2.5rem; }
 
+ /* .bg-primary {
+  color: black !important;
+   background-color: purple !important; 
+  height: 50px;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  align-items: center;
+  font-size: 2.5rem;
+
+  #bt2 .bg-primary {
+    background-color: #8ae0db !important;
+  } 
+
+}} */
 .overlay {
   font-family: "Open Sans", sans-serif;
   font-size: 20px;
@@ -69,17 +75,34 @@ main {
     justify-content: center;
     text-align: justify;
     color: #d7a2ff;
-    bottom: 250px; }
-    .overlay .container .bg-primary {
+    bottom: 250px;
+    /* .bg-primary{
       color: black;
-      background-color: purple !important;
-      height: 50px; }
+      //background-color: $colorCarrusel !important;
+      height: 50px;
+      //justify-content: center;
+      //align-items: center;
+      //text-align: center;
+    } */ }
+
+.overlay .bt1 {
+  background-color: #A9E9A4 !important;
+  position: relative; }
+
+#path .bt2 {
+  background-color: #8ae0db !important; }
+
+#path .bt3 {
+  background-color: #00afcf !important; }
+
+#path .bt4 {
+  background-color: #8ae0db !important; }
 
 .footer .pie {
   margin: 0%;
   padding: 0%;
   color: blanchedalmond;
-  background-color: #d7a2ff;
+  background-color: #E2CEE5;
   justify-items: center;
   align-items: center; }
   .footer .pie img {
@@ -99,17 +122,29 @@ main {
     border: solid red 0.2px; }
 
 section {
-  background-color: #d7a2ff; }
-  section .bg-primary {
-    background-color: purple !important;
-    height: 40px;
-    color: black; }
+  background-color: #E2CEE5;
+  /*  .bg-primary{
+      background-color: purple !important;
+      height: 40px;
+      color: black;
+  } */ }
+  section .overlay2 {
+    font-family: "Open Sans", sans-serif;
+    font-size: 20px;
+    position: relative;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    background-color: #b8f0ed;
+    color: balck; }
 
 #galeria_de_talleres img {
   width: 405px;
   height: 305px; }
 
 #carouselExampleIndicators img {
-  object-fit: scale-down; }
+  object-fit: scale-down;
+  background-color: #5dc1b9; }
 
 /*# sourceMappingURL=output.css.map */
