@@ -70,11 +70,13 @@ main {
   color: white; }
   .overlay .container {
     position: absolute;
+    top: 400px;
+    right: 400px;
     max-width: 80%;
     font-size: 2.5vw;
     justify-content: center;
     text-align: justify;
-    color: #d7a2ff;
+    color: #A9E9A4;
     bottom: 250px;
     /* .bg-primary{
       color: black;
@@ -85,19 +87,28 @@ main {
       //text-align: center;
     } */ }
 
-.overlay .bt1 {
-  background-color: #A9E9A4 !important;
-  position: relative; }
-
 #path .bt2 {
-  background-color: #8ae0db !important; }
+  background-color: #8ae0db !important;
+  height: 5vh;
+  font-size: 2rem; }
 
 #path .bt3 {
-  background-color: #00afcf !important; }
+  background-color: #00afcf !important;
+  height: 5vh;
+  font-size: 2rem; }
 
 #path .bt4 {
-  background-color: #8ae0db !important; }
+  background-color: #8ae0db !important;
+  height: 5vh;
+  font-size: 2rem; }
 
+@media screen and (max-width: 990px) {
+  #path {
+    padding: 30%; } }
+@media screen and (max-width: 840px) {
+  #path {
+    color: none;
+    display: none !important; } }
 .footer .pie {
   margin: 0%;
   padding: 0%;
@@ -146,5 +157,11 @@ section {
 #carouselExampleIndicators img {
   object-fit: scale-down;
   background-color: #5dc1b9; }
+
+#tercerMenu .container-fluid {
+  background-color: #b8f0ed; }
+
+#cuartoMenu .container-fluid span {
+  background-color: #b8f0ed; }
 
 /*# sourceMappingURL=output.css.map */
